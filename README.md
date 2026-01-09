@@ -18,7 +18,7 @@ The sensor is interfaced via a transimpedance circuit designed to measure its re
 * **Filtering**: A low-pass filter is implemented to extract useful signals before the ADC stage.
 * **Simulation**: The circuit was validated using LTSpice IV.
 ![Hardware test](Images/testbench.jpg)
-![LTSpice Simulation](Images/spice.jpg)
+![LTSpice Simulation](Images/spice.png)
 
 ---
 
