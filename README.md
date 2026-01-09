@@ -44,6 +44,10 @@ The PCB shield was designed following specific technical constraints to ensure c
 * **Microcontroller**: Programmed for Arduino UNO / ESP32 platforms.
 * **Connectivity**: Configured to send data over the The Things Network (TTN) via LoRa.
 * **Version Control**: Developed collaboratively using Git and GitHub.
+* **Interface**: NodeRed Application.
+
+![NodeRed](Images/nodered1.jpeg)
+![NodeRed](Images/nodered2.jpeg)
 
 ## 5. Repository Structure
 * `/PCB_Capteur`: Schematic and Layout design files.
