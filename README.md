@@ -1,4 +1,3 @@
-# BE AIME
 # Smart Device Project: Nanoparticle Gas Sensor & IoT Shield
 **UF "Smart Devices" – PTP Innovative Smart System (ISS)**
 
@@ -13,12 +12,14 @@
 * [cite_start]**Target Gases**: High sensitivity to Ethanol and Ammonium[cite: 37].
 * [cite_start]**Control**: Features an internal poly-silicon heating resistor and an aluminum temperature sensor[cite: 201].
 
-
 ### Analog Interface Circuit
 [cite_start]The sensor is interfaced via a transimpedance circuit designed to measure its resistance[cite: 88, 179].
 * [cite_start]**Amplification**: Utilizes an LTC1050 precision chopper amplifier[cite: 101].
 * [cite_start]**Filtering**: A low-pass filter is implemented to extract useful signals before the ADC stage[cite: 89].
 * [cite_start]**Simulation**: The circuit was validated using LTSpice IV[cite: 88].
+
+> **[Insert Screenshot of your LTSpice Testbench here]**
+> ![LTSpice Simulation](Images/testbench.jpg)
 
 ---
 
@@ -30,6 +31,18 @@
 * **Track Isolation**: 0.5 mm minimum.
 * **Drill Sizes**: 1mm for headers/connectors; 0.8mm for passive components.
 
+### Schematic & Routing
+> **[Insert Screenshot of your KiCad Schematic here]**
+> ![Schematic](Images/schematic.png)
+
+> **[Insert Screenshot of your Layout/Routage here]**
+> ![PCB Layout](Images/pcb.png)
+
+### 3D Model
+> **[Insert Screenshot of your 3D Model here]**
+> ![3D Model](Images/pcb_3d_front.png)
+> > ![3D Model](Images/pcb_3d_back.png)
+
 ---
 
 ## 4. Implementation & Software
@@ -38,9 +51,9 @@
 * [cite_start]**Version Control**: Developed collaboratively using Git and GitHub[cite: 104, 106].
 
 ## 5. Repository Structure
-* `/KiCad`: Schematic and Layout design files.
-* `/Code`: Arduino/ESP32 source code for data acquisition.
-* `/LTSpice`: Simulation files for the analog interface.
+* `/PCB_Capteur`: Schematic and Layout design files.
+* `/Software`: Arduino/ESP32 source code for data acquisition.
+* `/Spice`: Simulation files for the analog interface.
 * `/Images`: Screenshots and documentation assets.
 
 ## 6. Authors & Credits
