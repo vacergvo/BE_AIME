@@ -1,0 +1,15 @@
+LTspice 26.0.0 for Windows
+Circuit: D:\Work\Code\BE_AIME\Spice\AIME_1.net
+Start Time: Fri Jan  9 10:07:29 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.033 seconds.
+
+Files loaded:
+D:\Work\Code\BE_AIME\Spice\AIME_1.net
+C:\Users\rouss\AppData\Local\LTspice\lib\sub\LTC.lib
+

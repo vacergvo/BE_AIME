@@ -17,8 +17,8 @@ The sensor is interfaced via a transimpedance circuit designed to measure its re
 * **Amplification**: Utilizes an LTC1050 precision chopper amplifier.
 * **Filtering**: A low-pass filter is implemented to extract useful signals before the ADC stage.
 * **Simulation**: The circuit was validated using LTSpice IV.
-
-![LTSpice Simulation](Images/testbench.jpg)
+![Hardware test](Images/testbench.jpg)
+![LTSpice Simulation](Images/spice.jpg)
 
 ---
 
