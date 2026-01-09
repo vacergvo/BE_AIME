@@ -2,7 +2,7 @@
 **UF "Smart Devices" – PTP Innovative Smart System (ISS)**
 
 ## 1. Project Overview
-This project involves the design and realization of a smart device based on a custom-made tungsten trioxide ($WO_3$) nanoparticle gas sensor[cite: 17, 34]. [cite_start]The final objective is to combine this sensor with an electronic card to communicate data over a low-speed network using LoRa.
+This project involves the design and realization of a smart device based on a custom-made tungsten trioxide ($WO_3$) nanoparticle gas sensor. The final objective is to combine this sensor with an electronic card to communicate data over a low-speed network using LoRa.
 
 ## 2. The Measurement Chain
 ### Nanoparticle Gas Sensor (AIME)
@@ -36,8 +36,7 @@ The PCB shield was designed following specific technical constraints to ensure c
 
 ### 3D Model
 ![3D Model](Images/pcb_3d_front.png)
-
-> ![3D Model](Images/pcb_3d_back.png)
+![3D Model](Images/pcb_3d_back.png)
 
 ---
 
