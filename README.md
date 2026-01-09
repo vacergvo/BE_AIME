@@ -2,7 +2,24 @@
 **UF "Smart Devices" – PTP Innovative Smart System (ISS)**
 
 ## 1. Project Overview
-This project involves the design and realization of a smart device based on a custom-made tungsten trioxide ($WO_3$) nanoparticle gas sensor. The final objective is to combine this sensor with an electronic card to communicate data over a low-speed network using LoRa.
+This project is part of the **5ISS program at INSA Toulouse**. It focuses on the development of a **nanoparticle-based gas sensing system**, designed and characterized at **AIME**, the INSA Toulouse laboratory.
+
+The project covers the full development cycle, from sensor fabrication to data visualization. A custom **PCB** was designed, and **ESP32 firmware** was developed to exploit the gas sensor measurements and transmit the data wirelessly. The collected data is then processed and displayed on a **web-based interface**.
+
+The system relies on **LoRa communication** for long-range data transmission and integrates both hardware and software components.
+
+
+The development chain consists of :
+
+- Hardware design (analog signal amplified through a 2-stage transimpedance amplifier tested with LTSpice and PCB design with Kicad),
+
+- Embedded software development using Arduino,
+
+- LoRa wireless communication,
+
+- Data processing and visualization using Node-RED,
+
+- Mobile application development using MIT App Inventor.
 
 ## 2. The Measurement Chain
 ### Nanoparticle Gas Sensor (AIME)
@@ -18,7 +35,8 @@ The sensor is interfaced via a transimpedance circuit designed to measure its re
 * **Filtering**: A low-pass filter is implemented to extract useful signals before the ADC stage.
 * **Simulation**: The circuit was validated using LTSpice IV.
 ![Hardware test](Images/testbench.jpg)
-![LTSpice Simulation](Images/spice.jpg)
+
+![LTSpice Simulation](Images/spice.png)
 
 ---
 
