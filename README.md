@@ -18,7 +18,6 @@
 * [cite_start]**Filtering**: A low-pass filter is implemented to extract useful signals before the ADC stage[cite: 89].
 * [cite_start]**Simulation**: The circuit was validated using LTSpice IV[cite: 88].
 
-> **[Insert Screenshot of your LTSpice Testbench here]**
 > ![LTSpice Simulation](Images/testbench.jpg)
 
 ---
@@ -32,16 +31,14 @@
 * **Drill Sizes**: 1mm for headers/connectors; 0.8mm for passive components.
 
 ### Schematic & Routing
-> **[Insert Screenshot of your KiCad Schematic here]**
 > ![Schematic](Images/schematic.png)
 
-> **[Insert Screenshot of your Layout/Routage here]**
 > ![PCB Layout](Images/pcb.png)
 
 ### 3D Model
-> **[Insert Screenshot of your 3D Model here]**
 > ![3D Model](Images/pcb_3d_front.png)
-> > ![3D Model](Images/pcb_3d_back.png)
+
+> ![3D Model](Images/pcb_3d_back.png)
 
 ---
 
