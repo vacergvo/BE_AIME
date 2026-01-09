@@ -2,8 +2,6 @@
 **UF "Smart Devices" – PTP Innovative Smart System (ISS)**
 
 ## 1. Project Overview
-# Introduction
-
 This project is part of the **5ISS program at INSA Toulouse**. It focuses on the development of a **nanoparticle-based gas sensing system**, designed and characterized at **AIME**, the INSA Toulouse laboratory.
 
 The project covers the full development cycle, from sensor fabrication to data visualization. A custom **PCB** was designed, and **ESP32 firmware** was developed to exploit the gas sensor measurements and transmit the data wirelessly. The collected data is then processed and displayed on a **web-based interface**.
